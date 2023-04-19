@@ -1,0 +1,28 @@
+
+body{
+  margin: 0;
+}
+.general-block{
+  
+}
+.block-hero{
+  background-color: #442d25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 50px;
+  
+}
+.block-hero img{
+  width: 600px;
+  margin-right: -130;
+}
+.block-hero h1{
+  color: white;
+}
+.block-hero h2{
+  margin-top: 0;
+  color: white;
+}

@@ -6,11 +6,18 @@
 body{
   margin: 0;
 }
-.general-block{
+.second-block{
+  background-color: #36241e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  font-size: 50px;
+  margin-top: -10px;
   
 }
 .block-hero{
-  background-color: var(--general-color);
+  background: linear-gradient(#5a3c32,#36241e);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,3 +37,47 @@ body{
   margin-top: 0;
   color: var(--color-text);
 }
+.second-block img{
+  height: 60%;
+}
+.coffee-discription-block{
+  display: flex;
+  margin: 10px;
+  height: 25%;
+  margin-left: 55px;
+  margin-right: 80px;
+  margin-top: 100px;
+}
+.second-block p{
+  color: var(--color-text);
+}
+@media (min-width: 768px){
+  .coffee-discription-block{
+    display: flex;
+    margin: 10px;
+    height: 25%;
+    margin-left: 55px;
+    margin-right: 80px;
+    margin-top: 50px;
+    font-size: 30;
+  }
+  .block-hero img{
+    width: 370px;
+    margin-right: -60;
+    margin-top: 50px;
+  }
+  .block-hero h1{
+    color: var(--color-text);
+    font-size: 80;
+  }
+  .block-hero h2{
+    margin-top: 0;
+    color: var(--color-text);
+    font-size: 70;
+  }
+  .second-block img{
+    height: 90%;
+    margin-right: 90px;
+  }
+}
+

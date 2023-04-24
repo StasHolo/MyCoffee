@@ -1,4 +1,8 @@
 
+:root{
+  --general-color: #442d25;
+  --color-text: white;
+}
 body{
   margin: 0;
 }
@@ -6,7 +10,7 @@ body{
   
 }
 .block-hero{
-  background-color: #442d25;
+  background-color: var(--general-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,9 +24,9 @@ body{
   margin-right: -130;
 }
 .block-hero h1{
-  color: white;
+  color: var(--color-text);
 }
 .block-hero h2{
   margin-top: 0;
-  color: white;
+  color: var(--color-text);
 }

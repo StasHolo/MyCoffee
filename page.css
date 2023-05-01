@@ -2,6 +2,8 @@
 :root{
   --general-color: #442d25;
   --color-text: white;
+  --menu-color: #5c3f36;
+  --footer-color: #5c3f36;
 }
 body{
   margin: 0;
@@ -13,7 +15,7 @@ body{
   align-items: center;
   height: 100%;
   font-size: 50px;
-  margin-top: -10px;
+  
   
 }
 .block-hero{
@@ -22,7 +24,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: calc(100vh - 60px);
   font-size: 50px;
   
 }
@@ -58,6 +60,34 @@ body{
   color: var(--color-text);
   font-size: 16px;
 }
+.menu{
+  background-color: var(--menu-color);
+  height: 60px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu p{
+  color: var(--color-text);
+  font-size: 20px;
+margin-top: 0px;
+}
+.footer{
+  height: 100px;
+  background-color: var(--footer-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.footer p{
+  color: var(--color-text);
+  font-size: 16px;
+margin-top: 0px;
+}
 @media (min-width: 768px){
   .coffee-discription-block{
     display: flex;
@@ -92,5 +122,17 @@ body{
     color: var(--color-text);
     font-size: 20px;
   }
+
+.footer p{
+  color: var(--color-text);
+  font-size: 22px;
+margin-top: 0px;
 }
+.menu p{
+  color: var(--color-text);
+  font-size: 25px;
+margin-top: 0px;
+}
+}
+
 

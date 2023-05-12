@@ -228,6 +228,19 @@ margin-top: 0px;
   text-decoration: none ;
   margin-top: 30px;
 }
-}
-
-
+ }
+ .podarok  {background: linear-gradient(#5a3c32,#36241e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  font-size: 40px;
+  text-align: center;}
+  .podarok img{
+    width: 350px;
+    margin-top: 100px;}
+  .podarok h2{
+      margin-top: 0;
+      color: var(--color-text);
+      font-size: 70;}
